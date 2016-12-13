@@ -58,7 +58,7 @@ def reader(): #!!!!!!!!!!!!may not work in micro python!!!!!!!!!!!!!!!!!!
             print('Number of Rows',numberOfRows)
             print('Number of Elements', numberOfElements)
             print('Map width:',round(numberOfCol*resolution,1),'m Map Length:', round(numberOfRows*resolution,1),'m Resolution', round(resolution,4),'m')
-            print('Map width:',round(numberOfCol*resolution*3.28,1),'ft Map Length:', round(numberOfRows*resolution*3.28,1),'ft Resolution', round(resolution*3.28,4),'ft\n')
+            print('Map width:',round(numberOfCol*resolution*3.28,1),'ft Map Length:', round(numberOfRows*resolution*3.28,1),'ft Resolution', round(resolution*3.28,4),'ft Resolution', round(resolution*3.28*12,4),'in\n')
             # print(numberOfElements)
             # print(numberOfRows)
             # print('numberOfRows',numberOfRows)
@@ -111,6 +111,6 @@ def reader(): #!!!!!!!!!!!!may not work in micro python!!!!!!!!!!!!!!!!!!
         return           
         
 reader()
-
+input("Press Enter to close...")
         
         
